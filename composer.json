@@ -1,0 +1,23 @@
+{
+    "name": "macbook/app-salon_php_mvc_js_sass",
+    "description": "Proyecto Appsalon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edisson Galvez",
+            "email": "edissongalvezakagvz@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
